@@ -52,7 +52,7 @@ const projects = [
 
 const page = () => {
   return (
-    <div className='w-full max-h-[900px] flex flex-col p-4 overflow-y-auto'>
+    <div className='w-full max-h-[800px] flex flex-col p-4 overflow-y-auto'>
       <div className='text-2xl mt-14 md:mt-0'>Projects</div>
       <div className='w-full h-full mt-6 flex flex-wrap justify-center md:justify-start gap-6'>
         {projects.map(item => (
