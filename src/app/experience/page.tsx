@@ -46,7 +46,7 @@ const page = () => {
   return (
     <div className='w-full h-full p-4 flex flex-col justify-center mt-16 md:mt-8'>
       <div className='text-2xl'>Experience</div>
-      <div className='max-h-[700px] overflow-y-auto'>
+      <div className='max-h-[650px] md:max-h-[800px] overflow-y-auto'>
         {experiences.map(item => (
           <div className='mt-10' key={item.id}>
             <div className='text-xl'>{item.title}</div>
