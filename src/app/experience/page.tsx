@@ -26,7 +26,7 @@ const experiences = [
   },
   {
     id: 4,
-    title: 'Systems Analist',
+    title: 'Systems Analyst',
     company: 'Dexian',
     period: '2019/09 - 2021/04',
     summary:
