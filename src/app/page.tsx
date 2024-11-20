@@ -17,8 +17,8 @@ const page = () => {
         <section className='w-full flex justify-center md:w-3/5'>
           <span className='text-opacity-60 text-white text-center'>
             Hello! I'm a front-end engineer who's been working mainly with{' '}
-            <strong>Typescript</strong> using <strong>Angular</strong> and{' '}
-            <strong>React</strong> for the past 5 years. In 2021 I acquired my
+            <strong>Angular</strong> and <strong>React</strong> using{' '}
+            <strong>TypeScript</strong> for the past 5 years. In 2021 I acquired my
             bachelor's degree in information systems, graduating from{' '}
             <a href='https://www.unisociesc.com.br/'>UNISOCIESC</a>, and since
             then I've worked on small and big companies, including Latin
@@ -42,7 +42,7 @@ const page = () => {
               <FaGithub className='h-10 w-10' />
             </a>
             <a
-              href='/cv.pdf'
+              href='/amilto_romagno_resume.pdf'
               download
               className='border h-full w-40 rounded-full flex justify-center items-center'
             >
