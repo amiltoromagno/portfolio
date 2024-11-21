@@ -42,7 +42,7 @@ const Header = () => {
           <IoCloseOutline className='h-12 w-12' />
         )}
       </div>
-      <div className='hidden md:block'>{navigation}</div>
+      <div className='hidden md:flex h-14 md:items-end'>{navigation}</div>
       {isOpen && (
         <div className='absolute w-full h-[calc(100vh-16px)] bg-black bg-opacity-80 backdrop-blur md:hidden z-40'>
           {navigation}

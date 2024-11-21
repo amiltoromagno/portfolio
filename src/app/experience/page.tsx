@@ -44,9 +44,9 @@ const experiences = [
 
 const page = () => {
   return (
-    <div className='w-full h-full p-4 flex flex-col justify-center mt-8 md:mt-8'>
+    <div className='w-full p-4 flex flex-col justify-center mt-14 md:mt-0'>
       <div className='text-2xl'>Experience</div>
-      <div className='max-h-[550px] md:max-h-[800px] overflow-y-auto'>
+      <div>
         {experiences.map(item => (
           <div className='mt-10' key={item.id}>
             <div className='text-xl'>{item.title}</div>

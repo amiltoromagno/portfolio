@@ -52,7 +52,7 @@ const projects = [
 
 const page = () => {
   return (
-    <div className='w-full max-h-[700px] md:max-h-[900px] flex flex-col p-4 overflow-y-auto'>
+    <div className='w-full flex flex-col p-4'>
       <div className='text-2xl mt-14 md:mt-0'>Projects</div>
       <div className='w-full h-full mt-6 flex flex-wrap justify-center md:justify-start gap-6'>
         {projects.map(item => (
@@ -82,9 +82,9 @@ const page = () => {
             </div>
             <div className='w-full flex flex-col items-center'>
               <div className='text-xs mt-2 mb-2'>Built with</div>
-              <div className='flex justify-between w-3/4 md:w-1/2'>
+              <div className='flex justify-between w-3/4 md:w-1/3'>
                 {item.icons.map(Icon => (
-                  <Icon className='w-8 h-8' />
+                  <Icon className='w-8 h-8' key={Icon.name}/>
                 ))}
               </div>
             </div>
