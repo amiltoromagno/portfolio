@@ -47,6 +47,19 @@ const projects = [
     },
     link: 'https://addons.mozilla.org/en-US/firefox/addon/pok%C3%A9dex-extension-app/',
     repository: 'https://github.com/amiltoromagno/pokedex-extension-app'
+  },
+  {
+    id: 4,
+    name: 'SaaS App',
+    description: 'An example SaaS app landing page',
+    icons: [FaReact, RiTailwindCssFill, BiLogoTypescript, SiVite],
+    picture: {
+      url: '/saas.png',
+      width: 1764,
+      height: '1270'
+    },
+    link: 'https://amilto-saas.vercel.app',
+    repository: 'https://github.com/amiltoromagno/saas-app'
   }
 ]
 
