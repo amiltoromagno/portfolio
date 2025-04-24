@@ -5,7 +5,7 @@ const experiences = [
     id: 1,
     title: 'Front-end Engineer',
     company: 'VR',
-    period: '2023/07 - present',
+    period: '2023/07 - 2025/04',
     summary:
       'Worked developing UI components using Angular v17 and AngularJS (v1) alongside CoffeeScript and Pug (.jade) templates.'
   },
